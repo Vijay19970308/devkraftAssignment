@@ -1,0 +1,37 @@
+.App {
+  display: flex;
+  margin: auto;
+  margin-top: 2%;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.header{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 100;
+  margin: 5%;
+  text-decoration-color: chocolate;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  margin:auto;
+  margin-bottom: 2%;
+  background-color:green;
+  
+}
+.items{
+  background-color:rgb(12, 7, 41);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: aliceblue;
+  text-align: left;
+  margin-left: 5%;
+  padding: 0.5%;
+}
+.link{
+  float: right;
+  color: aliceblue;
+  margin-right: 5%;
+  background-color:rgb(12, 7, 41);
+  font-size: smaller;
+}
